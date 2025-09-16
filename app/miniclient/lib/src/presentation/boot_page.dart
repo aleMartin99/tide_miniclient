@@ -1,7 +1,7 @@
-import 'package:tide_design_system/tide_design_system.dart';
 import 'package:flutter/material.dart';
 import 'package:marvel_characters/marvel_characters.dart';
 import 'package:miniclient/src/di/di_initializer.dart';
+import 'package:tide_design_system/tide_design_system.dart';
 
 class BootPage extends StatefulWidget {
   const BootPage({super.key});

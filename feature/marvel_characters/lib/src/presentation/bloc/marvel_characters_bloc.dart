@@ -4,7 +4,6 @@ import 'package:injectable/injectable.dart';
 import 'package:marvel_characters/src/domain/model/marvel_character.dart';
 import 'package:marvel_characters/src/domain/repository/marvel_characters_repository.dart';
 import 'package:marvel_characters/src/flow/marvel_characters_flow_state.dart';
-import 'package:marvel_characters/src/flow/marvel_characters_flow_state.dart';
 import 'package:tide_feature_flow/feature_flow.dart';
 import 'package:tide_monitoring/tide_monitoring.dart';
 

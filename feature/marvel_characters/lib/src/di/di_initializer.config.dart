@@ -15,8 +15,11 @@ import 'package:marvel_characters/src/domain/api/marvel_characters_api.dart'
     as _i425;
 import 'package:marvel_characters/src/domain/repository/marvel_characters_repository.dart'
     as _i71;
+import 'package:marvel_characters/src/flow/marvel_characters_flow_state.dart'
+    as _i709;
 import 'package:marvel_characters/src/presentation/bloc/marvel_characters_bloc.dart'
     as _i378;
+import 'package:tide_feature_flow/feature_flow.dart' as _i526;
 import 'package:tide_monitoring/tide_monitoring.dart' as _i328;
 
 extension GetItInjectableX on _i174.GetIt {
@@ -37,7 +40,7 @@ extension GetItInjectableX on _i174.GetIt {
     gh.factory<_i378.MarvelCharactersBloc>(() => _i378.MarvelCharactersBloc(
           gh<_i71.MarvelCharactersRepository>(),
           gh<_i328.Monitoring>(),
-          gh<InvalidType>(),
+          gh<_i526.FeatureFlowController<_i709.MarvelCharactersFlowState>>(),
         ));
     return this;
   }
