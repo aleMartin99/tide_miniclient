@@ -25,6 +25,8 @@ dependencies:
   retrofit: ^4.0.3
   tide_di:
     path: ../../utility/tide_di
+  tide_feature_flow:
+    path: ../../utility/tide_feature_flow
 
 dev_dependencies:
   build_runner: ^2.4.7

@@ -16,6 +16,7 @@
         "retrofit",
         "tide_design_system",
         "tide_di",
+        "tide_feature_flow",
         "tide_monitoring",
         "tide_prelude"
       ],
@@ -136,6 +137,16 @@
         "watcher",
         "web_socket_channel",
         "yaml"
+      ]
+    },
+    {
+      "name": "tide_feature_flow",
+      "version": "0.0.1",
+      "dependencies": [
+        "flow_builder",
+        "flutter",
+        "get_it",
+        "tide_di"
       ]
     },
     {
@@ -623,6 +634,13 @@
         "async",
         "collection",
         "meta"
+      ]
+    },
+    {
+      "name": "flow_builder",
+      "version": "0.1.0",
+      "dependencies": [
+        "flutter"
       ]
     },
     {

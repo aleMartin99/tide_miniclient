@@ -37,6 +37,7 @@ extension GetItInjectableX on _i174.GetIt {
     gh.factory<_i378.MarvelCharactersBloc>(() => _i378.MarvelCharactersBloc(
           gh<_i71.MarvelCharactersRepository>(),
           gh<_i328.Monitoring>(),
+          gh<InvalidType>(),
         ));
     return this;
   }

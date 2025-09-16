@@ -52,12 +52,20 @@ class CharacterItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Card(
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: <Widget>[
-        Expanded(child: Image.network(character.thumbnail.url)),
-        Padding(padding: const EdgeInsets.all(12), child: Text(character.name)),
-      ],
+    child: InkWell(
+      onTap: () => context.read<MarvelCharactersBloc>().add(
+        MarvelCharactersEvent.openCharacter(character),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          Expanded(child: Image.network(character.thumbnail.url)),
+          Padding(
+            padding: const EdgeInsets.all(12),
+            child: Text(character.name),
+          ),
+        ],
+      ),
     ),
   );
 }
