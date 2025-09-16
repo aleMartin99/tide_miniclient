@@ -6,6 +6,7 @@ final diContainer = _TideDIContainer(_getIt);
 Future<DIContainer> initializeDIContainer(
   List<TideDIInitializer> initializers,
 ) async {
+  await GetIt.instance.reset();
   for (final initializer in initializers) {
     await initializer.init(_getIt);
   }

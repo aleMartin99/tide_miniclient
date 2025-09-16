@@ -18,6 +18,7 @@ dependencies:
   flutter_bloc: ^8.1.3
   freezed_annotation: ^2.4.1
   injectable: ^2.3.2
+  cached_network_image: ^3.4.1
   tide_monitoring:
     path: ../../utility/tide_monitoring
   tide_prelude:
@@ -33,6 +34,12 @@ dev_dependencies:
   freezed: ^2.4.5
   injectable_generator: ^2.4.1
   json_serializable: ^6.7.1
-  retrofit_generator: ^8.0.5
+  retrofit_generator: ^8.0.4
+  bdd_widget_test: ^1.7.6
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  test_utils:
+    path: ../../utility/test_utils
   tide_analysis:
     path: ../../utility/tide_analysis
