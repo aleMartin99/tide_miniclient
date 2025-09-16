@@ -1,4 +1,3 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:marvel_characters/src/domain/model/marvel_character.dart';
@@ -60,9 +59,7 @@ class CharacterItem extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          Expanded(
-            child: CachedNetworkImage(imageUrl: character.thumbnail.url),
-          ),
+          Expanded(child: Image.network(character.thumbnail.url)),
           Padding(
             padding: const EdgeInsets.all(12),
             child: Text(character.name),
