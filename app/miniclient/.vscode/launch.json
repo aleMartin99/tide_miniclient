@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "miniclient",
+            "cwd": "app/miniclient",
+            "request": "launch",
+            "type": "dart",
+            "toolArgs": [
+                "--dart-define", "MARVEL_PRIVATE_API_KEY=ae85ec9da2688569100459dd30e603151b313b6e",
+                "--dart-define", "MARVEL_PUBLIC_API_KEY=ed3ab36513d69ac2086231cd003615e5"
+            ]
+        },
+        {
+            "name": "miniclient (profile mode)",
+            "cwd": "app/miniclient",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "miniclient (release mode)",
+            "cwd": "app/miniclient",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

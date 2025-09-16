@@ -1,0 +1,50 @@
+{
+  "roots": [
+    "tide_di"
+  ],
+  "packages": [
+    {
+      "name": "tide_di",
+      "version": "0.1.0",
+      "dependencies": [
+        "get_it"
+      ],
+      "devDependencies": [
+        "tide_analysis"
+      ]
+    },
+    {
+      "name": "tide_analysis",
+      "version": "0.0.1",
+      "dependencies": []
+    },
+    {
+      "name": "get_it",
+      "version": "8.2.0",
+      "dependencies": [
+        "async",
+        "collection",
+        "meta"
+      ]
+    },
+    {
+      "name": "meta",
+      "version": "1.17.0",
+      "dependencies": []
+    },
+    {
+      "name": "collection",
+      "version": "1.19.1",
+      "dependencies": []
+    },
+    {
+      "name": "async",
+      "version": "2.13.0",
+      "dependencies": [
+        "collection",
+        "meta"
+      ]
+    }
+  ],
+  "configVersion": 1
+}

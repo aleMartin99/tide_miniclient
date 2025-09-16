@@ -1,0 +1,22 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "tide_analysis",
+      "rootUri": "../../tide_analysis",
+      "packageUri": "lib/",
+      "languageVersion": "3.9"
+    },
+    {
+      "name": "tide_prelude",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.9"
+    }
+  ],
+  "generator": "pub",
+  "generatorVersion": "3.9.0",
+  "flutterRoot": "file:///Users/alemartin/flutter/3.35.2",
+  "flutterVersion": "3.35.2",
+  "pubCache": "file:///Users/alemartin/.pub-cache"
+}

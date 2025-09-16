@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "676255767388",
+    "project_id": "miniclient-tide-46e4a",
+    "storage_bucket": "miniclient-tide-46e4a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676255767388:android:73ba99f13f03c01ba33f99",
+        "android_client_info": {
+          "package_name": "com.example.miniclient"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZFkd6Z66aAlh-VOvoMW5JzGkEYwRNe3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

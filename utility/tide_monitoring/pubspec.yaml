@@ -1,0 +1,23 @@
+name: tide_monitoring
+description: Monitoring
+publish_to: none
+version: 0.0.1
+
+environment:
+  sdk: ^3.9.0
+  flutter: ^3.35.2
+
+dependencies:
+  firebase_core: ^2.24.1
+  firebase_crashlytics: ^3.4.7
+  flutter:
+    sdk: flutter
+  injectable: ^2.3.2
+  tide_di:
+    path: ../tide_di
+
+dev_dependencies:
+  build_runner: ^2.4.7
+  injectable_generator: ^2.4.1
+  tide_analysis:
+    path: ../../utility/tide_analysis

@@ -1,0 +1,21 @@
+{
+  "roots": [
+    "tide_prelude"
+  ],
+  "packages": [
+    {
+      "name": "tide_prelude",
+      "version": "0.0.1",
+      "dependencies": [],
+      "devDependencies": [
+        "tide_analysis"
+      ]
+    },
+    {
+      "name": "tide_analysis",
+      "version": "0.0.1",
+      "dependencies": []
+    }
+  ],
+  "configVersion": 1
+}

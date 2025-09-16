@@ -1,0 +1,30 @@
+name: miniclient
+description: Miniclient study app
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+  flutter: ^3.35.2
+
+dependencies:
+  api_client:
+    path: ../../utility/api_client
+  tide_design_system:
+    path: ../../utility/tide_design_system
+  flutter:
+    sdk: flutter
+  marvel_characters:
+    path: ../../feature/marvel_characters
+  tide_monitoring:
+    path: ../../utility/tide_monitoring
+  tide_di:
+    path: ../../utility/tide_di
+
+dev_dependencies:
+  tide_analysis:
+    path: ../../utility/tide_analysis
+
+flutter:
+  uses-material-design: true

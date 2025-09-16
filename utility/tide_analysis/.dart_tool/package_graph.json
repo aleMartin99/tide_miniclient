@@ -1,0 +1,14 @@
+{
+  "roots": [
+    "tide_analysis"
+  ],
+  "packages": [
+    {
+      "name": "tide_analysis",
+      "version": "0.0.1",
+      "dependencies": [],
+      "devDependencies": []
+    }
+  ],
+  "configVersion": 1
+}
