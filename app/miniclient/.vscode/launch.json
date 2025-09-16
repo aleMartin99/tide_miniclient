@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "miniclient",
+            "name": "miniclient (debug)",
             "cwd": "app/miniclient",
             "request": "launch",
             "type": "dart",

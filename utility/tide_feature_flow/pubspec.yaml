@@ -1,0 +1,23 @@
+name: tide_feature_flow
+description: Miniclient Feature Flow
+publish_to: none
+version: 0.0.1
+
+environment:
+  sdk: ^3.9.0
+  flutter: ^3.35.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flow_builder: ^0.1.0
+  get_it: ^8.2.0
+  tide_di:
+    path: ../tide_di
+
+dev_dependencies:
+  tide_analysis:
+    path: ../tide_analysis
+
+flutter:
+  uses-material-design: true

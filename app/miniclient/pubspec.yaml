@@ -21,6 +21,8 @@ dependencies:
     path: ../../utility/tide_monitoring
   tide_di:
     path: ../../utility/tide_di
+  feature_flow:
+    path: ../../utility/feature_flow
 
 dev_dependencies:
   tide_analysis:

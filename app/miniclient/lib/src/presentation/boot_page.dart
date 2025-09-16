@@ -18,7 +18,7 @@ class _BootPageState extends State<BootPage> {
     future: initialization,
     builder: (context, shapshot) {
       if (shapshot.connectionState == ConnectionState.done) {
-        return const MarvelCharactersPage();
+        return const MarvelCharactersFlow();
       }
       return const Loading();
     },
